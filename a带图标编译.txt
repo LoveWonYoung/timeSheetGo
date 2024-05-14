@@ -1,0 +1,3 @@
+windres -o main.syso main.rc
+
+go build -o main.exe -ldflags="-H windowsgui -w -s"
