@@ -304,7 +304,6 @@ func main() {
 	println()
 	fmt.Printf("生成成功，耗时: %v \n", cost)
 
-	//fmt.Printf("%v", GetBetweenDates("02-11-24", "02-15-24"))\
 	reader := bufio.NewReader(os.Stdin)
 	_, _ = reader.ReadByte()
 }
